@@ -1,104 +1,84 @@
-import{d as e,c,M as n,S as x,B as h}from"./lucide-Csgzrttu.js";/**
+import{d as e,c,M as n,S as x,B as h}from"./lucide-BJwdtfAe.js";import{S as u,a as b,C as v,b as m}from"./smartphone-C-9nyjFW.js";/**
  * @license lucide v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const v=["svg",e,[["path",{d:"M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-2.22 0-4 1.44-5 2-1-.56-2.78-2-5-2a4.9 4.9 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06Z"}],["path",{d:"M10 2c1 .5 2 2 2 5"}]]];/**
+ */const g=["svg",e,[["path",{d:"M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-2.22 0-4 1.44-5 2-1-.56-2.78-2-5-2a4.9 4.9 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06Z"}],["path",{d:"M10 2c1 .5 2 2 2 5"}]]];/**
  * @license lucide v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const u=["svg",e,[["path",{d:"m5 12 7-7 7 7"}],["path",{d:"M12 19V5"}]]];/**
+ */const p=["svg",e,[["path",{d:"m5 12 7-7 7 7"}],["path",{d:"M12 19V5"}]]];/**
  * @license lucide v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const b=["svg",e,[["path",{d:"M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"}],["path",{d:"M9 13a4.5 4.5 0 0 0 3-4"}],["path",{d:"M6.003 5.125A3 3 0 0 0 6.401 6.5"}],["path",{d:"M3.477 10.896a4 4 0 0 1 .585-.396"}],["path",{d:"M6 18a4 4 0 0 1-1.967-.516"}],["path",{d:"M12 13h4"}],["path",{d:"M12 18h6a2 2 0 0 1 2 2v1"}],["path",{d:"M12 8h8"}],["path",{d:"M16 8V5a2 2 0 0 1 2-2"}],["circle",{cx:"16",cy:"13",r:".5"}],["circle",{cx:"18",cy:"3",r:".5"}],["circle",{cx:"20",cy:"21",r:".5"}],["circle",{cx:"20",cy:"8",r:".5"}]]];/**
+ */const f=["svg",e,[["path",{d:"M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"}],["path",{d:"M9 13a4.5 4.5 0 0 0 3-4"}],["path",{d:"M6.003 5.125A3 3 0 0 0 6.401 6.5"}],["path",{d:"M3.477 10.896a4 4 0 0 1 .585-.396"}],["path",{d:"M6 18a4 4 0 0 1-1.967-.516"}],["path",{d:"M12 13h4"}],["path",{d:"M12 18h6a2 2 0 0 1 2 2v1"}],["path",{d:"M12 8h8"}],["path",{d:"M16 8V5a2 2 0 0 1 2-2"}],["circle",{cx:"16",cy:"13",r:".5"}],["circle",{cx:"18",cy:"3",r:".5"}],["circle",{cx:"20",cy:"21",r:".5"}],["circle",{cx:"20",cy:"8",r:".5"}]]];/**
  * @license lucide v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const m=["svg",e,[["path",{d:"M20 6 9 17l-5-5"}]]];/**
+ */const w=["svg",e,[["path",{d:"M20 6 9 17l-5-5"}]]];/**
  * @license lucide v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const g=["svg",e,[["path",{d:"M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z"}],["path",{d:"M6 17h12"}]]];/**
+ */const k=["svg",e,[["path",{d:"M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z"}],["path",{d:"M6 17h12"}]]];/**
  * @license lucide v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const p=["svg",e,[["circle",{cx:"12",cy:"12",r:"10"}],["path",{d:"m9 12 2 2 4-4"}]]];/**
+ */const y=["svg",e,[["circle",{cx:"12",cy:"12",r:"10"}],["path",{d:"m9 12 2 2 4-4"}]]];/**
  * @license lucide v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const f=["svg",e,[["path",{d:"m18 16 4-4-4-4"}],["path",{d:"m6 8-4 4 4 4"}],["path",{d:"m14.5 4-5 16"}]]];/**
+ */const M=["svg",e,[["path",{d:"m18 16 4-4-4-4"}],["path",{d:"m6 8-4 4 4 4"}],["path",{d:"m14.5 4-5 16"}]]];/**
  * @license lucide v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const w=["svg",e,[["rect",{width:"16",height:"16",x:"4",y:"4",rx:"2"}],["rect",{width:"6",height:"6",x:"9",y:"9",rx:"1"}],["path",{d:"M15 2v2"}],["path",{d:"M15 20v2"}],["path",{d:"M2 15h2"}],["path",{d:"M2 9h2"}],["path",{d:"M20 15h2"}],["path",{d:"M20 9h2"}],["path",{d:"M9 2v2"}],["path",{d:"M9 20v2"}]]];/**
+ */const C=["svg",e,[["circle",{cx:"12",cy:"12",r:"1"}],["circle",{cx:"19",cy:"12",r:"1"}],["circle",{cx:"5",cy:"12",r:"1"}]]];/**
  * @license lucide v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const k=["svg",e,[["circle",{cx:"12",cy:"12",r:"1"}],["circle",{cx:"19",cy:"12",r:"1"}],["circle",{cx:"5",cy:"12",r:"1"}]]];/**
+ */const P=["svg",e,[["path",{d:"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["path",{d:"M9 18c-4.51 2-5-2-7-2"}]]];/**
  * @license lucide v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const y=["svg",e,[["path",{d:"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["path",{d:"M9 18c-4.51 2-5-2-7-2"}]]];/**
+ */const A=["svg",e,[["line",{x1:"22",x2:"2",y1:"12",y2:"12"}],["path",{d:"M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"}],["line",{x1:"6",x2:"6.01",y1:"16",y2:"16"}],["line",{x1:"10",x2:"10.01",y1:"16",y2:"16"}]]];/**
  * @license lucide v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const M=["svg",e,[["line",{x1:"22",x2:"2",y1:"12",y2:"12"}],["path",{d:"M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"}],["line",{x1:"6",x2:"6.01",y1:"16",y2:"16"}],["line",{x1:"10",x2:"10.01",y1:"16",y2:"16"}]]];/**
+ */const S=["svg",e,[["path",{d:"M12 12c-2-2.67-4-4-6-4a4 4 0 1 0 0 8c2 0 4-1.33 6-4Zm0 0c2 2.67 4 4 6 4a4 4 0 0 0 0-8c-2 0-4 1.33-6 4Z"}]]];/**
  * @license lucide v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const C=["svg",e,[["path",{d:"M12 12c-2-2.67-4-4-6-4a4 4 0 1 0 0 8c2 0 4-1.33 6-4Zm0 0c2 2.67 4 4 6 4a4 4 0 0 0 0-8c-2 0-4 1.33-6 4Z"}]]];/**
+ */const j=["svg",e,[["path",{d:"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"}],["rect",{width:"4",height:"12",x:"2",y:"9"}],["circle",{cx:"4",cy:"4",r:"2"}]]];/**
  * @license lucide v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const P=["svg",e,[["path",{d:"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"}],["rect",{width:"4",height:"12",x:"2",y:"9"}],["circle",{cx:"4",cy:"4",r:"2"}]]];/**
+ */const L=["svg",e,[["rect",{width:"18",height:"11",x:"3",y:"11",rx:"2",ry:"2"}],["path",{d:"M7 11V7a5 5 0 0 1 10 0v4"}]]];/**
  * @license lucide v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const A=["svg",e,[["rect",{width:"18",height:"11",x:"3",y:"11",rx:"2",ry:"2"}],["path",{d:"M7 11V7a5 5 0 0 1 10 0v4"}]]];/**
+ */const z=["svg",e,[["line",{x1:"4",x2:"20",y1:"12",y2:"12"}],["line",{x1:"4",x2:"20",y1:"6",y2:"6"}],["line",{x1:"4",x2:"20",y1:"18",y2:"18"}]]];/**
  * @license lucide v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const S=["svg",e,[["line",{x1:"4",x2:"20",y1:"12",y2:"12"}],["line",{x1:"4",x2:"20",y1:"6",y2:"6"}],["line",{x1:"4",x2:"20",y1:"18",y2:"18"}]]];/**
+ */const I=["svg",e,[["path",{d:"M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414z"}],["path",{d:"m18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18"}],["path",{d:"m2.3 2.3 7.286 7.286"}],["circle",{cx:"11",cy:"11",r:"2"}]]];/**
  * @license lucide v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const j=["svg",e,[["path",{d:"M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414z"}],["path",{d:"m18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18"}],["path",{d:"m2.3 2.3 7.286 7.286"}],["circle",{cx:"11",cy:"11",r:"2"}]]];/**
- * @license lucide v0.468.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */const L=["svg",e,[["path",{d:"m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"}],["path",{d:"m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"}],["path",{d:"M7 21h10"}],["path",{d:"M12 3v18"}],["path",{d:"M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"}]]];/**
- * @license lucide v0.468.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */const z=["svg",e,[["path",{d:"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"}],["path",{d:"m9 12 2 2 4-4"}]]];/**
- * @license lucide v0.468.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */const I=["svg",e,[["path",{d:"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"}]]];/**
- * @license lucide v0.468.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */const T=["svg",e,[["rect",{width:"14",height:"20",x:"5",y:"2",rx:"2",ry:"2"}],["path",{d:"M12 18h.01"}]]];/**
+ */const T=["svg",e,[["path",{d:"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"}],["path",{d:"m9 12 2 2 4-4"}]]];/**
  * @license lucide v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.
@@ -118,7 +98,7 @@ import{d as e,c,M as n,S as x,B as h}from"./lucide-Csgzrttu.js";/**
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const F=["svg",e,[["path",{d:"M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"}]]];function H(){const s=document.getElementById("typing-text");if(!s)return;const t=["Always On-Device.","Custom Pals","Agentic Workflows","True Privacy","Massive Models Locally","Offline Forever"];let l=0,a=t[0].length,r=!1;function d(){const o=t[l];r?a--:a++,a===0?s.innerHTML="&nbsp;":s.textContent=o.substring(0,a);let i=r?40:80;!r&&a===o.length?(i=2e3,r=!0):r&&a===0&&(r=!1,l=(l+1)%t.length,i=500),setTimeout(d,i)}setTimeout(d,2500)}function V(){const s=document.getElementById("theme-toggle"),t=document.documentElement;localStorage.theme==="dark"||!("theme"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?t.classList.add("dark"):t.classList.remove("dark"),s.addEventListener("click",()=>{t.classList.toggle("dark"),t.classList.contains("dark")?localStorage.theme="dark":localStorage.theme="light"})}function R(){const s={threshold:.1,rootMargin:"0px 0px -50px 0px"},t=new IntersectionObserver(l=>{l.forEach(a=>{a.isIntersecting&&a.target.classList.add("active")})},s);document.querySelectorAll(".reveal").forEach(l=>t.observe(l))}function U(){return`
+ */const F=["svg",e,[["path",{d:"M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"}]]];function H(){const s=document.getElementById("typing-text");if(!s)return;const t=["Always On-Device.","Custom Pals","Agentic Workflows","True Privacy","Massive Models Locally","Offline Forever"];let l=0,a=t[0].length,r=!1;function d(){const o=t[l];r?a--:a++,a===0?s.innerHTML="&nbsp;":s.textContent=o.substring(0,a);let i=r?40:80;!r&&a===o.length?(i=2e3,r=!0):r&&a===0&&(r=!1,l=(l+1)%t.length,i=500),setTimeout(d,i)}setTimeout(d,2500)}function U(){const s=document.getElementById("theme-toggle"),t=document.documentElement;localStorage.theme==="dark"||!("theme"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?t.classList.add("dark"):t.classList.remove("dark"),s.addEventListener("click",()=>{t.classList.toggle("dark"),t.classList.contains("dark")?localStorage.theme="dark":localStorage.theme="light"})}function R(){const s={threshold:.1,rootMargin:"0px 0px -50px 0px"},t=new IntersectionObserver(l=>{l.forEach(a=>{a.isIntersecting&&a.target.classList.add("active")})},s);document.querySelectorAll(".reveal").forEach(l=>t.observe(l))}function V(){return`
     <section id="features" class="py-24 relative z-10">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 space-y-32">
 
@@ -252,7 +232,7 @@ import{d as e,c,M as n,S as x,B as h}from"./lucide-Csgzrttu.js";/**
         </div>
       </div>
     </section>
-  `}function Z(){return`
+  `}function N(){return`
     <section class="bg-slate-100/80 dark:bg-slate-950/80 border-slate-200 dark:border-none border-t backdrop-blur-md py-12 relative" id="pricing">
       <div class="max-w-5xl mx-auto px-4 sm:px-6">
         <div class="text-center mb-12 reveal">
@@ -324,7 +304,7 @@ import{d as e,c,M as n,S as x,B as h}from"./lucide-Csgzrttu.js";/**
         </div>
       </div>
     </section>
-  `}function N(){return`
+  `}function O(){return`
     <section id="blog" class="py-24 border-t border-slate-200 dark:border-white/5">
       <div class="max-w-7xl mx-auto px-4 sm:px-6">
         <h2 class="text-3xl font-semibold text-slate-900 dark:text-white mb-12 tracking-tight">Learn Local AI</h2>
@@ -367,7 +347,7 @@ import{d as e,c,M as n,S as x,B as h}from"./lucide-Csgzrttu.js";/**
         </div>
       </div>
     </section>
-  `}function O(){return`
+  `}function $(){return`
     <section class="py-24 relative overflow-hidden">
       <div class="absolute inset-0 bg-gradient-to-b from-slate-100/50 to-blue-50/50 dark:from-slate-950/50 dark:to-blue-950/20 backdrop-blur-sm"></div>
       <div class="max-w-4xl mx-auto px-4 sm:px-6 relative z-10 text-center">
@@ -401,7 +381,7 @@ import{d as e,c,M as n,S as x,B as h}from"./lucide-Csgzrttu.js";/**
         </div>
       </div>
     </section>
-  `}function $(){return`
+  `}function W(){return`
     <footer class="bg-slate-50/[0.15] dark:bg-slate-950/[0.15] border-slate-200 dark:border-white/5 backdrop-blur-md border-t pt-16 pb-8 transition-colors duration-300">
       <div class="max-w-7xl mx-auto px-4 sm:px-6">
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
@@ -427,7 +407,7 @@ import{d as e,c,M as n,S as x,B as h}from"./lucide-Csgzrttu.js";/**
           <div>
             <h4 class="text-sm font-semibold text-slate-900 dark:text-white mb-4">Resources</h4>
             <ul class="space-y-2 text-xs text-slate-500">
-              <li><a href="#" class="hover:text-blue-600 dark:hover:text-white transition-colors">Documentation</a></li>
+              <li><a href="/contact.html" class="hover:text-blue-600 dark:hover:text-white transition-colors">Contact Us</a></li>
               <li><a href="#" class="hover:text-blue-600 dark:hover:text-white transition-colors">Community</a></li>
               <li><a href="#" class="hover:text-blue-600 dark:hover:text-white transition-colors">Blog</a></li>
             </ul>
@@ -456,10 +436,10 @@ import{d as e,c,M as n,S as x,B as h}from"./lucide-Csgzrttu.js";/**
         </div>
       </div>
     </footer>
-  `}c({icons:{Bot:h,Apple:v,Smartphone:T,Menu:S,Sun:x,Moon:n,ShieldCheck:z,Zap:F,Infinity:C,MoreHorizontal:k,ArrowUp:u,Cpu:w,HardDrive:M,Lock:A,Users:D,Code2:f,ChefHat:g,Scale:L,PenTool:j,Terminal:E,BrainCircuit:b,Shield:I,Twitter:B,Github:y,Linkedin:P,Check:m,CheckCircle2:p},attrs:{strokeWidth:1.5}});const W=document.getElementById("content");W.innerHTML=`
-  ${U()}
-  ${Z()}
+  `}c({icons:{Bot:h,Apple:g,Smartphone:m,Menu:z,Sun:x,Moon:n,ShieldCheck:T,Zap:F,Infinity:S,MoreHorizontal:C,ArrowUp:p,Cpu:v,HardDrive:A,Lock:L,Users:D,Code2:M,ChefHat:k,Scale:b,PenTool:I,Terminal:E,BrainCircuit:f,Shield:u,Twitter:B,Github:P,Linkedin:j,Check:w,CheckCircle2:y},attrs:{strokeWidth:1.5}});const Z=document.getElementById("content");Z.innerHTML=`
+  ${V()}
   ${N()}
   ${O()}
   ${$()}
-`;H();V();R();setTimeout(()=>{c({attrs:{strokeWidth:1.5}})},100);
+  ${W()}
+`;H();U();R();setTimeout(()=>{c({attrs:{strokeWidth:1.5}})},100);
