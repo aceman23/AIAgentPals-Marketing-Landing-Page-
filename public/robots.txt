@@ -1,0 +1,7 @@
+# robots.txt for AIAgentPals
+User-agent: *
+Allow: /
+Sitemap: https://aiagentpals.com/sitemap.xml
+
+# Crawl-delay for polite bots
+Crawl-delay: 1

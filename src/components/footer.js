@@ -25,7 +25,7 @@ export function renderFooter() {
           <div>
             <h4 class="text-sm font-semibold text-slate-900 dark:text-white mb-4">Resources</h4>
             <ul class="space-y-2 text-xs text-slate-500">
-              <li><a href="#" class="hover:text-blue-600 dark:hover:text-white transition-colors">Documentation</a></li>
+              <li><a href="/contact.html" class="hover:text-blue-600 dark:hover:text-white transition-colors">Contact Us</a></li>
               <li><a href="#" class="hover:text-blue-600 dark:hover:text-white transition-colors">Community</a></li>
               <li><a href="#" class="hover:text-blue-600 dark:hover:text-white transition-colors">Blog</a></li>
             </ul>

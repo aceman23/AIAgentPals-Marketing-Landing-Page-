@@ -51,3 +51,40 @@
 ::-webkit-scrollbar-thumb:hover {
   @apply bg-slate-400 dark:bg-slate-600;
 }
+
+/* Accessibility - Focus indicators */
+*:focus-visible {
+  @apply outline-2 outline-offset-2 outline-blue-600 dark:outline-blue-400;
+}
+
+a:focus-visible,
+button:focus-visible {
+  @apply outline-2 outline-offset-2 outline-blue-600 dark:outline-blue-400 rounded;
+}
+
+/* Skip to content link for screen readers */
+.skip-to-content {
+  @apply absolute left-[-9999px] top-0 z-[100] bg-blue-600 text-white px-4 py-2 rounded;
+}
+
+.skip-to-content:focus {
+  @apply left-4 top-4;
+}
+
+/* High contrast for accessibility */
+@media (prefers-contrast: high) {
+  * {
+    border-width: 2px !important;
+  }
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

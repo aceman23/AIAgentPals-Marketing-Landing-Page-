@@ -11,7 +11,9 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         terms: resolve(__dirname, 'terms.html'),
-        privacy: resolve(__dirname, 'privacy.html')
+        privacy: resolve(__dirname, 'privacy.html'),
+        contact: resolve(__dirname, 'contact.html'),
+        404: resolve(__dirname, '404.html')
       }
     }
   }
