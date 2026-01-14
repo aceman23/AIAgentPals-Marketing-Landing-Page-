@@ -1,6 +1,6 @@
 # AIAgentPals Landing Page
 
-A modern, mobile-first landing page for AIAgentPals - private on-device AI agents.
+A modern, mobile-first landing page for AIAgentPals - private on-device AI agents. A product of Delivery Apps Now Inc.
 
 ## Features
 
@@ -9,6 +9,8 @@ A modern, mobile-first landing page for AIAgentPals - private on-device AI agent
 - Smooth animations and transitions
 - Component-based architecture
 - Built with Vite and TailwindCSS
+- Unicorn Studio animated background
+- Comprehensive legal pages (Terms of Service & Privacy Policy)
 
 ## Getting Started
 
@@ -27,9 +29,20 @@ Build for production:
 npm run build
 ```
 
+## Pages
+
+- **Home** (`/`) - Main landing page
+- **Terms of Service** (`/terms.html`) - Legal terms and conditions
+- **Privacy Policy** (`/privacy.html`) - Privacy practices and data handling
+
 ## Tech Stack
 
 - Vite
 - TailwindCSS
 - Lucide Icons
 - Vanilla JavaScript
+- Unicorn Studio (background animations)
+
+## Company
+
+AIAgentPals is a brand of **Delivery Apps Now Inc.**

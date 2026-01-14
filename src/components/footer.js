@@ -33,13 +33,13 @@ export function renderFooter() {
           <div>
             <h4 class="text-sm font-semibold text-slate-900 dark:text-white mb-4">Legal</h4>
             <ul class="space-y-2 text-xs text-slate-500">
-              <li><a href="#" class="hover:text-blue-600 dark:hover:text-white transition-colors">Privacy Policy</a></li>
-              <li><a href="#" class="hover:text-blue-600 dark:hover:text-white transition-colors">Terms of Service</a></li>
+              <li><a href="/privacy.html" class="hover:text-blue-600 dark:hover:text-white transition-colors">Privacy Policy</a></li>
+              <li><a href="/terms.html" class="hover:text-blue-600 dark:hover:text-white transition-colors">Terms of Service</a></li>
             </ul>
           </div>
         </div>
         <div class="border-t border-slate-200 dark:border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <span class="text-xs text-slate-600">© 2024 AIAgentPals Inc. All rights reserved.</span>
+          <span class="text-xs text-slate-600">© 2026 Delivery Apps Now Inc. All rights reserved.</span>
           <div class="flex items-center gap-4">
             <a href="#" class="text-slate-500 hover:text-blue-600 dark:hover:text-white transition-colors">
               <i data-lucide="twitter" class="w-4 h-4"></i>
