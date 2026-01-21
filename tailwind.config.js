@@ -14,6 +14,7 @@ export default {
         'blob': 'blob 7s infinite',
         'bounce-slow': 'bounce 3s infinite',
         'bounce-slower': 'bounce 4s infinite',
+        'scroll': 'scroll 20s linear infinite',
       },
       keyframes: {
         blob: {
@@ -21,6 +22,10 @@ export default {
           '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
           '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
           '100%': { transform: 'translate(0px, 0px) scale(1)' },
+        },
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
         },
       },
     },

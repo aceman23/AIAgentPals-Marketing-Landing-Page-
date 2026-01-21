@@ -9,6 +9,7 @@ import { renderResources } from './components/resources'
 import { renderCTA } from './components/cta'
 import { renderFooter } from './components/footer'
 import { createWaitlistForm } from './components/waitlist-form'
+import { createLogoTicker } from './components/logo-ticker'
 
 createIcons({
   icons: {
@@ -32,6 +33,7 @@ contentContainer.innerHTML = `
 initTypingEffect()
 initThemeToggle()
 initScrollAnimations()
+createLogoTicker()
 
 createWaitlistForm('hero-waitlist-form', {
   buttonText: 'Join Waitlist',
