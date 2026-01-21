@@ -47,6 +47,9 @@ createWaitlistForm('cta-waitlist-form', {
 
 setTimeout(() => {
   createIcons({
+    icons: {
+      Bot, Menu, Sun, Moon, ShieldCheck, Zap, Infinity, MoreHorizontal, ArrowUp, Cpu, HardDrive, Lock, Users, Code2, ChefHat, Scale, PenTool, Terminal, BrainCircuit, Shield, Twitter, Github, Linkedin, Check, CheckCircle2, Bell
+    },
     attrs: {
       strokeWidth: 1.5
     }
