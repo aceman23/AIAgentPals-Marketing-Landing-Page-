@@ -27,6 +27,12 @@
   <meta name="keywords" content="AI agents, on-device AI, private AI, offline AI, local AI models, DeepSeek, Qwen, Llama, mobile AI">
   <meta name="author" content="Delivery Apps Now Inc.">
   <meta name="robots" content="index, follow">
+
+  <!-- Performance Optimizations -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+
   <link rel="stylesheet" href="/src/style.css">
 </head>
 <body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-300 overflow-x-hidden transition-colors duration-300">
@@ -37,9 +43,6 @@
   <!-- Aura Background Animation -->
   <div class="aura-background-component fixed top-0 w-full h-screen -z-10" data-alpha-mask="80" style="mask-image: linear-gradient(to bottom, transparent, black 0%, black 80%, transparent); -webkit-mask-image: linear-gradient(to bottom, transparent, black 0%, black 80%, transparent);">
     <div data-us-project="GE8mpmmCRgK6XBF57jgF" class="absolute w-full h-full left-0 top-0"></div>
-    <script type="text/javascript">
-      !function(){if(!window.UnicornStudio){window.UnicornStudio={isInitialized:!1};var i=document.createElement("script");i.src="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v1.4.33/dist/unicornStudio.umd.js",i.onload=function(){window.UnicornStudio.isInitialized||(UnicornStudio.init(),window.UnicornStudio.isInitialized=!0)},(document.head || document.body).appendChild(i)}}();
-    </script>
   </div>
 
   <!-- Background Gradients -->
@@ -279,5 +282,10 @@
   </script>
 
   <script type="module" src="/src/main.js"></script>
+
+  <!-- Deferred background animation loader -->
+  <script>
+    if('requestIdleCallback' in window){requestIdleCallback(loadAnimation)}else{setTimeout(loadAnimation,1000)}function loadAnimation(){if(!window.UnicornStudio){window.UnicornStudio={isInitialized:!1};var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v1.4.33/dist/unicornStudio.umd.js';s.async=!0;s.onload=function(){window.UnicornStudio.isInitialized||(UnicornStudio.init(),window.UnicornStudio.isInitialized=!0)};document.body.appendChild(s)}}
+  </script>
 </body>
 </html>

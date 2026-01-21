@@ -7,6 +7,13 @@ export default defineConfig({
     host: true
   },
   build: {
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true,
+        drop_debugger: true
+      }
+    },
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
@@ -14,7 +21,15 @@ export default defineConfig({
         privacy: resolve(__dirname, 'privacy.html'),
         contact: resolve(__dirname, 'contact.html'),
         404: resolve(__dirname, '404.html')
+      },
+      output: {
+        manualChunks: {
+          'lucide': ['lucide']
+        }
       }
-    }
+    },
+    chunkSizeWarningLimit: 600,
+    cssCodeSplit: true,
+    sourcemap: false
   }
 })

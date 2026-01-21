@@ -1,5 +1,5 @@
 import './style.css'
-import { createIcons, Bot, Apple, Smartphone, Menu, Sun, Moon, ShieldCheck, Zap, Infinity, MoreHorizontal, ArrowUp, Cpu, HardDrive, Lock, Users, Code2, ChefHat, Scale, PenTool, Terminal, BrainCircuit, Shield, Twitter, Github, Linkedin, Check, CheckCircle2, Bell } from 'lucide'
+import { createIcons, Bot, Menu, Sun, Moon, ShieldCheck, Zap, Infinity, MoreHorizontal, ArrowUp, Cpu, HardDrive, Lock, Users, Code2, ChefHat, Scale, PenTool, Terminal, BrainCircuit, Shield, Twitter, Github, Linkedin, Check, CheckCircle2, Bell } from 'lucide'
 import { initTypingEffect } from './components/typing-effect'
 import { initThemeToggle } from './components/theme-toggle'
 import { initScrollAnimations } from './components/scroll-animations'
@@ -12,7 +12,7 @@ import { createWaitlistForm } from './components/waitlist-form'
 
 createIcons({
   icons: {
-    Bot, Apple, Smartphone, Menu, Sun, Moon, ShieldCheck, Zap, Infinity, MoreHorizontal, ArrowUp, Cpu, HardDrive, Lock, Users, Code2, ChefHat, Scale, PenTool, Terminal, BrainCircuit, Shield, Twitter, Github, Linkedin, Check, CheckCircle2, Bell
+    Bot, Menu, Sun, Moon, ShieldCheck, Zap, Infinity, MoreHorizontal, ArrowUp, Cpu, HardDrive, Lock, Users, Code2, ChefHat, Scale, PenTool, Terminal, BrainCircuit, Shield, Twitter, Github, Linkedin, Check, CheckCircle2, Bell
   },
   attrs: {
     strokeWidth: 1.5
