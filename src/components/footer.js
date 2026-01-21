@@ -4,11 +4,8 @@ export function renderFooter() {
       <div class="max-w-7xl mx-auto px-4 sm:px-6">
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
           <div class="col-span-2 md:col-span-1">
-            <div class="flex items-center gap-2 mb-4">
-              <div class="w-6 h-6 rounded bg-gradient-to-br from-blue-500 to-cyan-600 flex items-center justify-center text-[10px] text-white">
-                <i data-lucide="bot" class="w-3 h-3"></i>
-              </div>
-              <span class="font-semibold text-slate-900 dark:text-white">AIAgentPals</span>
+            <div class="mb-4">
+              <img src="/logov2_transparent2.png" alt="AIAgentPals Logo" class="h-8">
             </div>
             <p class="text-xs text-slate-500 leading-relaxed">
               Empowering private, powerful AI for everyone. No cloud, no tracking, just pure intelligence.
