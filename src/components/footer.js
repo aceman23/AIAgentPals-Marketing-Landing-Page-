@@ -5,7 +5,7 @@ export function renderFooter() {
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
           <div class="col-span-2 md:col-span-1">
             <div class="mb-4">
-              <img src="/logov2.png" alt="AIAgentPals Logo" class="h-8">
+              <img src="/logov2.png" alt="AIAgentPals Logo" class="h-16">
             </div>
             <p class="text-xs text-slate-500 leading-relaxed">
               Empowering private, powerful AI for everyone. No cloud, no tracking, just pure intelligence.
