@@ -27,10 +27,16 @@
   <meta name="keywords" content="AI agents, on-device AI, private AI, offline AI, local AI models, DeepSeek, Qwen, Llama, mobile AI">
   <meta name="author" content="Delivery Apps Now Inc.">
   <meta name="robots" content="index, follow">
-  <script type="module" crossorigin src="/assets/main-BjwTegbr.js"></script>
-  <link rel="modulepreload" crossorigin href="/assets/lucide-BJwdtfAe.js">
-  <link rel="modulepreload" crossorigin href="/assets/smartphone-C-9nyjFW.js">
-  <link rel="stylesheet" crossorigin href="/assets/lucide-C_UMpJwr.css">
+
+  <!-- Performance Optimizations -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+
+  <script type="module" crossorigin src="/assets/main-C35aRZjh.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/style-CRrXDWZj.js">
+  <link rel="modulepreload" crossorigin href="/assets/lucide-CU568AaU.js">
+  <link rel="stylesheet" crossorigin href="/assets/style-DXmJmPCs.css">
 </head>
 <body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-300 overflow-x-hidden transition-colors duration-300">
 
@@ -40,9 +46,6 @@
   <!-- Aura Background Animation -->
   <div class="aura-background-component fixed top-0 w-full h-screen -z-10" data-alpha-mask="80" style="mask-image: linear-gradient(to bottom, transparent, black 0%, black 80%, transparent); -webkit-mask-image: linear-gradient(to bottom, transparent, black 0%, black 80%, transparent);">
     <div data-us-project="GE8mpmmCRgK6XBF57jgF" class="absolute w-full h-full left-0 top-0"></div>
-    <script type="text/javascript">
-      !function(){if(!window.UnicornStudio){window.UnicornStudio={isInitialized:!1};var i=document.createElement("script");i.src="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v1.4.33/dist/unicornStudio.umd.js",i.onload=function(){window.UnicornStudio.isInitialized||(UnicornStudio.init(),window.UnicornStudio.isInitialized=!0)},(document.head || document.body).appendChild(i)}}();
-    </script>
   </div>
 
   <!-- Background Gradients -->
@@ -56,9 +59,7 @@
   <nav class="fixed top-0 w-full z-50 border-b border-slate-200 dark:border-white/5 bg-white/80 dark:bg-slate-950/80 backdrop-blur-md transition-colors duration-300" role="navigation" aria-label="Main navigation">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
       <div class="flex items-center gap-2 cursor-pointer group">
-        <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-500 to-cyan-600 flex items-center justify-center shadow-lg shadow-blue-500/20 group-hover:scale-105 transition-transform duration-300 text-white">
-          <i data-lucide="bot" class="w-5 h-5"></i>
-        </div>
+        <img src="/logov2.png" alt="AIAgentPals Logo" class="h-16 group-hover:scale-105 transition-transform duration-300">
         <span class="text-lg font-semibold tracking-tight text-slate-900 dark:text-white">AIAgentPals</span>
       </div>
 
@@ -86,8 +87,11 @@
   </nav>
 
   <!-- Hero Section -->
-  <section id="main-content" class="pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden z-10 relative" role="main">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 grid lg:grid-cols-2 gap-16 items-center">
+  <section id="main-content" class="pt-20 pb-12 lg:pt-28 lg:pb-20 overflow-hidden z-10 relative" role="main">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 mb-6 flex justify-center">
+      <img src="/logov2.png" alt="AIAgentPals Logo" class="h-72 lg:h-96">
+    </div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 grid lg:grid-cols-2 gap-12 items-center">
 
       <!-- Hero Text -->
       <div class="flex flex-col gap-6 reveal active text-center lg:text-left">
@@ -111,17 +115,11 @@
           Run massive open-source models offline. Create custom "Pals" for coding, writing, or analysis. No data leaves your phone.
         </p>
 
-        <div class="flex flex-col sm:flex-row gap-4 pt-4 justify-center lg:justify-start">
-          <a href="#" class="group relative px-6 py-3.5 bg-slate-900 text-white hover:bg-slate-800 dark:bg-white dark:text-slate-950 rounded-lg font-semibold text-sm dark:hover:bg-blue-50 transition-all flex items-center justify-center gap-2 overflow-hidden shadow-lg shadow-slate-900/10 dark:shadow-none">
-            <span class="relative z-10 flex items-center gap-2">
-              <i data-lucide="apple" class="w-5 h-5"></i> Download for iOS
-            </span>
-            <div class="absolute inset-0 bg-gradient-to-r from-blue-200 to-cyan-200 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-          </a>
-          <a href="#" class="px-6 py-3.5 bg-white border-slate-200 text-slate-900 hover:bg-slate-50 dark:bg-white/5 dark:border-white/10 dark:text-white border rounded-lg font-semibold text-sm dark:hover:bg-white/10 transition-all flex items-center justify-center gap-2">
-            <i data-lucide="smartphone" class="w-5 h-5"></i> Get on Android
-          </a>
-        </div>
+        <div id="hero-waitlist-form" class="pt-4"></div>
+
+        <p class="text-xs text-slate-500 dark:text-slate-600 max-w-md mx-auto lg:mx-0">
+          Join the waitlist for early access. Launching soon on iOS and Android.
+        </p>
 
         <div class="flex items-center justify-center lg:justify-start gap-6 pt-4 text-xs font-medium text-slate-500">
           <div class="flex items-center gap-2">
@@ -287,5 +285,10 @@
   }
   </script>
 
+
+  <!-- Deferred background animation loader -->
+  <script>
+    if('requestIdleCallback' in window){requestIdleCallback(loadAnimation)}else{setTimeout(loadAnimation,1000)}function loadAnimation(){if(!window.UnicornStudio){window.UnicornStudio={isInitialized:!1};var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v1.4.33/dist/unicornStudio.umd.js';s.async=!0;s.onload=function(){window.UnicornStudio.isInitialized||(UnicornStudio.init(),window.UnicornStudio.isInitialized=!0)};document.body.appendChild(s)}}
+  </script>
 </body>
 </html>
