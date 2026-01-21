@@ -1,3 +1,5 @@
+import { createModal } from './modal'
+
 export function createWaitlistForm(containerId, options = {}) {
   const {
     buttonText = 'Join Waitlist',
@@ -6,6 +8,8 @@ export function createWaitlistForm(containerId, options = {}) {
     onError = null,
     referralSource = 'website'
   } = options
+
+  const modal = createModal()
 
   const container = document.getElementById(containerId)
   if (!container) return
@@ -146,14 +150,14 @@ export function createWaitlistForm(containerId, options = {}) {
 
       if (!response.ok) {
         if (response.status === 409 && data.alreadySubscribed) {
-          showMessage('You\'re already on the waitlist!', 'info')
+          modal.open('You\'re already on the waitlist! We\'ll notify you when we launch.')
           emailInput.value = ''
           if (onSuccess) onSuccess(data)
         } else {
           throw new Error(data.error || 'Failed to join waitlist')
         }
       } else {
-        showMessage('Success! You\'re on the waitlist.', 'success')
+        modal.open('Thank you for joining the AI Agent Pals waitlist. We\'ll notify you when we launch!')
         emailInput.value = ''
         if (onSuccess) onSuccess(data)
       }
