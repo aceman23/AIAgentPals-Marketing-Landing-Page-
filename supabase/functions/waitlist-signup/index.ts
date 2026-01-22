@@ -68,7 +68,7 @@ Deno.serve(async (req: Request) => {
     }
 
     const { data, error } = await supabase
-      .from('waitlist')
+      .from('tb_waitlist')
       .insert([
         {
           email: email.toLowerCase().trim(),
