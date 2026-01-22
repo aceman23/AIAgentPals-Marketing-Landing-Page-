@@ -88,3 +88,37 @@ button:focus-visible {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Mobile Optimizations for Android Galaxy */
+@media (max-width: 768px) {
+  body {
+    -webkit-tap-highlight-color: rgba(59, 130, 246, 0.1);
+    -webkit-touch-callout: none;
+  }
+
+  button,
+  a[role="button"],
+  input[type="submit"] {
+    min-height: 44px;
+    touch-action: manipulation;
+  }
+
+  input,
+  textarea,
+  select {
+    font-size: 16px;
+  }
+}
+
+/* Android-specific optimizations */
+@supports (-webkit-touch-callout: none) {
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Improve touch scrolling on mobile */
+* {
+  -webkit-overflow-scrolling: touch;
+}
