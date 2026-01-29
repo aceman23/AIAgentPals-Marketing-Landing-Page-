@@ -1,38 +1,21 @@
 import './style.css'
-import { createIcons, Bot, Menu, Sun, Moon, ShieldCheck, Zap, Infinity, MoreHorizontal, ArrowUp, Cpu, HardDrive, Lock, Users, Code2, ChefHat, Scale, PenTool, Terminal, BrainCircuit, Shield, Twitter, Github, Linkedin, Check, CheckCircle2, Bell } from 'lucide'
+import { createIcons, Bot, Menu, Sun, Moon, ShieldCheck, Zap, Infinity, MoreHorizontal, ArrowUp, Cpu, HardDrive } from 'lucide'
 import { initTypingEffect } from './components/typing-effect'
 import { initThemeToggle } from './components/theme-toggle'
-import { initScrollAnimations } from './components/scroll-animations'
-import { renderFeatures } from './components/features'
-import { renderPricing } from './components/pricing'
-import { renderResources } from './components/resources'
-import { renderCTA } from './components/cta'
-import { renderFooter } from './components/footer'
 import { createWaitlistForm } from './components/waitlist-form'
 import { createLogoTicker } from './components/logo-ticker'
 
 createIcons({
   icons: {
-    Bot, Menu, Sun, Moon, ShieldCheck, Zap, Infinity, MoreHorizontal, ArrowUp, Cpu, HardDrive, Lock, Users, Code2, ChefHat, Scale, PenTool, Terminal, BrainCircuit, Shield, Twitter, Github, Linkedin, Check, CheckCircle2, Bell
+    Bot, Menu, Sun, Moon, ShieldCheck, Zap, Infinity, MoreHorizontal, ArrowUp, Cpu, HardDrive
   },
   attrs: {
     strokeWidth: 1.5
   }
 })
 
-const contentContainer = document.getElementById('content')
-
-contentContainer.innerHTML = `
-  ${renderFeatures()}
-  ${renderPricing()}
-  ${renderResources()}
-  ${renderCTA()}
-  ${renderFooter()}
-`
-
 initTypingEffect()
 initThemeToggle()
-initScrollAnimations()
 createLogoTicker()
 
 createWaitlistForm('hero-waitlist-form', {
@@ -41,19 +24,52 @@ createWaitlistForm('hero-waitlist-form', {
   referralSource: 'hero'
 })
 
-createWaitlistForm('cta-waitlist-form', {
-  buttonText: 'Get Early Access',
-  placeholder: 'Your email address',
-  referralSource: 'cta'
-})
+function loadBelowFold() {
+  Promise.all([
+    import('./components/scroll-animations'),
+    import('./components/features'),
+    import('./components/pricing'),
+    import('./components/resources'),
+    import('./components/cta'),
+    import('./components/footer'),
+    import('lucide')
+  ]).then(([
+    { initScrollAnimations },
+    { renderFeatures },
+    { renderPricing },
+    { renderResources },
+    { renderCTA },
+    { renderFooter },
+    lucide
+  ]) => {
+    const contentContainer = document.getElementById('content')
 
-setTimeout(() => {
-  createIcons({
-    icons: {
-      Bot, Menu, Sun, Moon, ShieldCheck, Zap, Infinity, MoreHorizontal, ArrowUp, Cpu, HardDrive, Lock, Users, Code2, ChefHat, Scale, PenTool, Terminal, BrainCircuit, Shield, Twitter, Github, Linkedin, Check, CheckCircle2, Bell
-    },
-    attrs: {
-      strokeWidth: 1.5
-    }
+    contentContainer.innerHTML = `
+      ${renderFeatures()}
+      ${renderPricing()}
+      ${renderResources()}
+      ${renderCTA()}
+      ${renderFooter()}
+    `
+
+    initScrollAnimations()
+
+    createWaitlistForm('cta-waitlist-form', {
+      buttonText: 'Get Early Access',
+      placeholder: 'Your email address',
+      referralSource: 'cta'
+    })
+
+    lucide.createIcons({
+      attrs: {
+        strokeWidth: 1.5
+      }
+    })
   })
-}, 100)
+}
+
+if ('requestIdleCallback' in window) {
+  requestIdleCallback(loadBelowFold, { timeout: 2000 })
+} else {
+  setTimeout(loadBelowFold, 1)
+}

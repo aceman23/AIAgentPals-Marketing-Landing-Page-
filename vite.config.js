@@ -11,7 +11,11 @@ export default defineConfig({
     terserOptions: {
       compress: {
         drop_console: true,
-        drop_debugger: true
+        drop_debugger: true,
+        passes: 2
+      },
+      mangle: {
+        safari10: true
       }
     },
     rollupOptions: {
@@ -23,13 +27,26 @@ export default defineConfig({
         404: resolve(__dirname, '404.html')
       },
       output: {
-        manualChunks: {
-          'lucide': ['lucide']
-        }
+        manualChunks: (id) => {
+          if (id.includes('node_modules')) {
+            if (id.includes('lucide')) {
+              return 'lucide'
+            }
+            return 'vendor'
+          }
+          if (id.includes('/components/')) {
+            return 'components'
+          }
+        },
+        chunkFileNames: 'assets/[name]-[hash].js',
+        entryFileNames: 'assets/[name]-[hash].js',
+        assetFileNames: 'assets/[name]-[hash].[ext]'
       }
     },
     chunkSizeWarningLimit: 600,
     cssCodeSplit: true,
-    sourcemap: false
+    cssMinify: true,
+    sourcemap: false,
+    reportCompressedSize: true
   }
 })
