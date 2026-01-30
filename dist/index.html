@@ -44,14 +44,17 @@
   <link rel="apple-touch-icon" href="/favicon.png">
 
   <!-- Performance Optimizations -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preload" href="/logov2.png" as="image" fetchpriority="high">
+  <link rel="preload" href="/aiagentpals_logov2.png" as="image" fetchpriority="high">
 
-  <script type="module" crossorigin src="/assets/main-DWWDErvU.js"></script>
-  <link rel="modulepreload" crossorigin href="/assets/style-BoErwm-b.js">
-  <link rel="modulepreload" crossorigin href="/assets/lucide-CU568AaU.js">
-  <link rel="stylesheet" crossorigin href="/assets/style-CGNblGD_.css">
+  <script type="module" crossorigin src="/assets/main-Cwtjs78s.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/style-BB_ycshE.js">
+  <link rel="modulepreload" crossorigin href="/assets/lucide-CmY3fa77.js">
+  <link rel="modulepreload" crossorigin href="/assets/components-CGSqyBXB.js">
+  <link rel="stylesheet" crossorigin href="/assets/style-BwQCvyu-.css">
 </head>
 <body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-300 overflow-x-hidden transition-colors duration-300">
 
@@ -74,7 +77,7 @@
   <nav class="fixed top-0 w-full z-50 border-b border-slate-200 dark:border-white/5 bg-white/80 dark:bg-slate-950/80 backdrop-blur-md transition-colors duration-300" role="navigation" aria-label="Main navigation">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
       <div class="flex items-center gap-2 cursor-pointer group">
-        <img src="/logov2.png" alt="AIAgentPals Logo" class="h-16 group-hover:scale-105 transition-transform duration-300">
+        <img src="/logov2.png" alt="AIAgentPals Logo" width="64" height="64" class="h-16 group-hover:scale-105 transition-transform duration-300">
         <span class="text-lg font-semibold tracking-tight text-slate-900 dark:text-white">AIAgentPals</span>
       </div>
 
@@ -104,7 +107,7 @@
   <!-- Hero Section -->
   <section id="main-content" class="pt-24 pb-12 lg:pt-32 lg:pb-20 overflow-hidden z-10 relative" role="main">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 mb-2 flex justify-center">
-      <img src="/aiagentpals_logov2.png" alt="AIAgentPals Logo" class="h-72 lg:h-96">
+      <img src="/aiagentpals_logov2.png" alt="AIAgentPals Logo" width="384" height="384" class="h-72 lg:h-96" fetchpriority="high">
     </div>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 grid lg:grid-cols-2 gap-12 items-center">
 
